@@ -1,0 +1,73 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$backgroud-color: rgb(230, 225, 225);
+$nav-bgcolor: #1a1f30;
+$nav-color: #ffffff;
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $backgroud-color;
+  min-height: 100%;
+}
+
+nav {
+  background-color: $nav-bgcolor;
+  color: $nav-color;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  display: inline-block;
+  .logo {
+    float: left;
+    font-size: 30px;
+  }
+
+  .menu {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    a {
+      color: $nav-color;
+      padding: 6px 12 px;
+      text-decoration: none;
+    }
+  }
+}
+
+.content {
+  padding: 10px;
+  a {
+    color: $nav-bgcolor;
+  }
+}
+
+footer {
+  background-color: $nav-bgcolor;
+  color: $nav-color;
+  position: absolute;
+  padding: 5px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+nav,
+footer {
+  a,
+  a:hover,
+  a:visited,
+  a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+}

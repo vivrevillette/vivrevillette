@@ -1,0 +1,17 @@
+baseURL = ""
+languageCode = "fr-fr"
+title = "Villette d'Anthon (38280)"
+
+
+[params]
+title = "Wilfried JEANNIARD"
+author = "Wilfried JEANNIARD"
+description = "Call me Jane"
+keywords = ""
+favicon = "favicons/"
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/willoucom/"
