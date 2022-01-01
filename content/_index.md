@@ -5,17 +5,17 @@ draft: false
 ---
 Liens
 
-- [Mairie de Villette d'anthon (Site officiel)](https://www.mairie-villettedanthon.fr/)
+- [Mairie de Villette d'Anthon (Site officiel)](https://www.mairie-villettedanthon.fr/)
 
 Au quotidien
 
-- [ADMR](https://www.admr.org/associations/ass-admr-villette-danthon)
-- [Bibliothèque de Villette d'anthon](https://bibliothequevillettedanthon.opac-x.com/)
-- [Pharmacie de Villette d'anthon](https://www.pharmaciedevillettedanthon.fr/)
+- [ADMR de Villette d'Anthon](https://www.admr.org/associations/ass-admr-villette-danthon)
+- [Bibliothèque de Villette d'Anthon](https://bibliothequevillettedanthon.opac-x.com/)
+- [Pharmacie de Villette d'Anthon](https://www.pharmaciedevillettedanthon.fr/)
 
 Ecoles
 
-- [Groupe Scolaire Jean de la fontaine](http://www.ac-grenoble.fr/ecole/villettebourg/)
+- [Groupe Scolaire Jean de la Fontaine](http://www.ac-grenoble.fr/ecole/villettebourg/)
 
 Banques
 
@@ -24,7 +24,7 @@ Banques
 
 Commerces/Restauration
 
-- [Intermarché](https://www.intermarche.com/magasins/06272/villette-d-anthon-38280/infos-pratiques)
+- [Intermarché de Villette d'Anthon](https://www.intermarche.com/magasins/06272/villette-d-anthon-38280/infos-pratiques)
 - [Le kiosque à pizza](https://www.le-kiosque-a-pizzas.com/commander-pizza-villette-danthon--587)
 - [Pizzeria La Bellavita](https://pizzeria-bellavita.com/)
 - [Pizzeria Le Johnethan](https://lejohnethan.fr/)

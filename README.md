@@ -1,10 +1,10 @@
 # Annuaire collaboratif de la ville de Villette d'Anthon
 
-Recense les sites internet des différentes entreprises et commerces de la ville de Villette d'Anthon (30280)
+Recense les sites internet des différentes entreprises et commerces de la ville de Villette d'Anthon (38280)
 
 # Comment contribuer
 
-Créez un [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) sur github (vous aurez besoin de créer un compte pour celà)
+Créez un [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) sur github (vous aurez besoin de créer un compte pour cela)
 
 Modifiez les fichiers dans le répertoire "content"
 - [_index.md](content/_index.md) est la page principale
