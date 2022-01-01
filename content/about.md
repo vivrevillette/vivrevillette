@@ -8,7 +8,7 @@ Cet annuaire collaboratif a pour but de permettre aux habitants de Villette de r
 
 Ce projet est OpenSource sous license [Creative Common BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr)
 
-Le code source de ce projet est disponible sur [github](github) et est librement modifiable.
+Le code source de ce projet est disponible sur [github](https://github.com/vivrevillette/vivrevillette.github.io) et est librement modifiable.
 
 Le projet utilise [HUGO](https://gohugo.io/) pour la génération du site
 
