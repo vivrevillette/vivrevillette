@@ -4,65 +4,115 @@ $backgroud-color: rgb(230, 225, 225);
 $nav-bgcolor: #1a1f30;
 $nav-color: #ffffff;
 
-html {
-  height: 100%;
+
+// Mobile
+$small-width: 480px;
+$medium-width: 768px;
+$large-width: 1024px;
+
+@mixin extra-small {
+  @media (max-width: #{$small-width - 1px}) {
+    @content;
+  }
 }
 
-body {
+@mixin small-down {
+  @media (max-width: #{$medium-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin small-only {
+  @media (min-width: #{$small-width}) and (max-width: #{$medium-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin small-up {
+  @media (min-width: #{$small-width}) {
+    @content;
+  }
+}
+
+@mixin medium-only {
+  @media (min-width: #{$medium-width}) and (max-width: #{$large-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin medium-up {
+  @media (min-width: #{$medium-width}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: #{$large-width}) {
+    @content;
+  }
+}
+
+
+// Content
+
+body, code {
   margin: 0;
   padding: 0;
   font: 100% $font-stack;
   color: $primary-color;
   background-color: $backgroud-color;
-  min-height: 100%;
 }
 
 nav {
+  right:0;
+  top:0;
+  left:0;
   background-color: $nav-bgcolor;
   color: $nav-color;
-  margin: 0;
+  // position: fixed;
   padding: 10px;
-  width: 100%;
-  display: inline-block;
+  min-height: 40px;
   .logo {
     float: left;
     font-size: 30px;
-  }
-
-  .menu {
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
+    @include small-down {
+      font-size: 25px;
     }
-
-    a {
-      color: $nav-color;
-      padding: 6px 12 px;
-      text-decoration: none;
+  }
+  .menu{
+    float: right;
+    font-size: 30px;
+    @include small-down {
+      font-size: 10px;
     }
   }
 }
 
 .content {
   padding: 10px;
+  padding-left:40px;
+
+  @include small-down {
+    font-size: 30px;
+    padding-left:10px;
+    h1 {
+      font-size: 30px;
+    }
+  }
+
   a {
     color: $nav-bgcolor;
   }
+
+  ul, li {
+    list-style-type: none;
+    padding-left: 5px;
+  }
+
 }
 
-footer {
-  background-color: $nav-bgcolor;
-  color: $nav-color;
-  position: absolute;
-  padding: 5px;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
 
-nav,
-footer {
+nav {
   a,
   a:hover,
   a:visited,
@@ -71,3 +121,5 @@ footer {
     text-decoration: none;
   }
 }
+
+

@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     {{ if .Site.IsServer }}{{ $styles := resources.Get "sass/main.scss" | toCSS (dict "targetPath" "css/main.css"
     "enableSourceMap" true) }}
@@ -11,12 +12,13 @@
     fingerprint }}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
     {{ end }}
+    <base target="_blank">
+
 </head>
 
 <body>
     {{ partial "nav.html" . }}
     {{ block "main" . }}{{ end }}
-    {{ partial "footer.html" . }}
 </body>
 
 </html>
