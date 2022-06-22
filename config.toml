@@ -15,3 +15,8 @@ favicon = "favicons/"
 icon = "fa-github"
 title = "GitHub"
 url = "https://github.com/willoucom/"
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true

@@ -1,4 +1,4 @@
-$font-stack: Helvetica, sans-serif;
+$font-stack: sans-serif;
 $primary-color: #333;
 $backgroud-color: rgb(230, 225, 225);
 $nav-bgcolor: #1a1f30;
@@ -69,7 +69,6 @@ nav {
   left:0;
   background-color: $nav-bgcolor;
   color: $nav-color;
-  // position: fixed;
   padding: 10px;
   min-height: 40px;
   .logo {
@@ -89,9 +88,11 @@ nav {
 }
 
 .content {
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
   padding-left:40px;
-
+  
   @include small-down {
     font-size: 30px;
     padding-left:10px;
@@ -99,18 +100,26 @@ nav {
       font-size: 30px;
     }
   }
-
+  
   a {
     color: $nav-bgcolor;
   }
-
+  
   ul, li {
     list-style-type: none;
     padding-left: 5px;
   }
+  h1,h2,h3,h4,h5{
+    margin: 1px;
+  }
 
 }
 
+.item {
+  display: inline-block;
+  padding: 0px 5px;
+  margin: 5px 5px;
+}
 
 nav {
   a,
